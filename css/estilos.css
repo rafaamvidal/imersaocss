@@ -1,0 +1,36 @@
+/* Aula inicial :D */
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/05/09/13/main-road-1373497_1280.jpg'); /*altera fundo*/
+    background-size: auto 100vh  /*ajusta tamanho da imagem de fundo*/
+    font-family: Arial; /*altera fonte*/
+  }
+  
+  .menu ul {
+    display: flex;  /*coloca a lista de menu em colunas e nao em linha*/
+    justify-content: space-around; /*adiciona espaco entre menus*/
+  }
+  
+  .menu li {
+    list-style: none; /*tira a marcação da lista de menu*/
+  }
+  
+  a{
+    text-decoration: none; /*retira a linha embaixo da coluna de menu*/
+  }
+  
+  a:hover {
+    text-decoration: underline; /*adiciona a linha embaixo da coluna do menu quando o ponteiro do mouse estiver sobre o menu*/
+  }
+  
+  /*alterações no titulo e subtitulo do site*/
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  /*alterações no subtitulo do site*/
+  .site-subtitle {
+    font-style: italic;
+  }
